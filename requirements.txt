@@ -1,6 +1,5 @@
 wheel
 beautifulsoup4==4.12.2
-flask==3.0.0
 validators==0.22.0
 lxml==4.9.3
 python-crontab==3.0.0
