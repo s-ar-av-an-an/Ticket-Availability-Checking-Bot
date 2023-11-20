@@ -24,7 +24,7 @@ class User:
                     return True
 
 
-file = f'UserInfo/{sys.argv[1]}.csv'
+file = sys.argv[1]
 with open(file, 'r') as f:
     reader = csv.reader(f)
     row = tuple(reader)[0]
