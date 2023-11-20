@@ -1,6 +1,4 @@
 wheel
-libxml2
-libxslt
 beautifulsoup4==4.12.2
 flask==3.0.0
 validators==0.22.0
