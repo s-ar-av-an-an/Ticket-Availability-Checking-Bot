@@ -1,6 +1,8 @@
+wheel
+libxml2
+libxslt
 beautifulsoup4==4.12.2
-sourcedefender==11.0.4
 flask==3.0.0
 validators==0.22.0
 lxml==4.9.3
-secure-smtplib
+python-crontab==3.0.0
