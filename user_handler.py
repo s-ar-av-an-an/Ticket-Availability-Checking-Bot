@@ -1,4 +1,5 @@
 import csv
+import os
 
 # csv file order
 # username,movie,date,link,email,freq
