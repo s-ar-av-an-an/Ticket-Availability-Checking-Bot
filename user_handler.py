@@ -16,3 +16,8 @@ def isDuplicate(uname):
             return True
     except:
         return False
+
+# this function works only for termux version of this app
+def remove(user):
+    path = os.path.abspath(f"UserInfo/{user}.csv")
+    os.system(f"rm {path}")
