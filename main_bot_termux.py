@@ -4,6 +4,7 @@ import csv
 import sys
 import os
 import cron_handler
+import user_handler
 
 
 class User:
