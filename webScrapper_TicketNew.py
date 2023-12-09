@@ -17,7 +17,7 @@ def initialize(link, date):
     # get HTML content of the webpage
     html_text = requests.get(link+'?fromdate={}'.format(date)).text
     # create soup object
-    soup = BeautifulSoup(html_text, 'lxml')
+    soup = BeautifulSoup(html_text, 'html.parser')
     if 'Sorry' in soup.text:
         return None
     return soup
