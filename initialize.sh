@@ -1,7 +1,9 @@
-pkg update
-pkg install libxml2 libxslt
-pkg install python
-pkg install termux-api
-pkg install termux-services
-pkg install cronie
-pkg install which
+apt update
+apt install libxml2 libxslt -y
+apt install python -y
+apt install termux-api -y
+apt install termux-services -y
+apt install cronie -y
+apt install which -y
+pkg install libexpat
+pkg install openssl
